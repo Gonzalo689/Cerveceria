@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cerveceria</title>
+    <link rel="stylesheet" href="trabajo-2.css">
+    <link type="image/png" sizes="16x16" rel="icon" href="Imagenes/icono.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <img src="Imagenes/iconogif.gif" alt="" class="logo">
+        <div>
+            <a class="menu" href="#">Inicio</a>
+            <a class="menu" href="#enlaceCerveza">Cervezas</a>
+            <a class="menu" href="#compra"> Datos de compra</a>
+            <a class="cta" href="">Incripcion</a>
+        </div>
+    </header> 
+    <div class="pag">
+    <div id="fond">
+        <h1>Todas las cervezas <br> a su disposición</h1>
+        <div id="tit">
+
+            <h3> <a href="#enlaceCerveza">Cervezas</a> </h3>
+        </div>
+
+    </div>
+
+    <hr>
+    <form>
+        <div class="container" id="enlaceCerveza">
+            <div class="cont">
+                <div class="cerveza">
+                    <img class="prod" src="Imagenes/Adams.png">
+                    <p>Samuel Adams</p>
+                    <h4>1,72€</h4>
+                    <label for="adams">Añadir</label>
+                    <input type="number" id="adams" name="admas" value="0" min="0" max="20">
+                </div>
+                <div class="cerveza">
+                    <img class="prod" src="Imagenes/Heineken.png">
+                    <p>Heineken</p>
+                    <h4>2,25€</h4>
+                    <label for="Heineken">Añadir</label>
+                    <input type="number" id="Heineken" name="Heineken" value="0" min="0" max="20">
+                </div>
+                <div class="cerveza">
+                    <img class="prod" src="Imagenes/Mahou.png">
+                    <p>Mahou</p>
+                    <h4>1,59€</h4>
+                    <label for="Mahou">Añadir</label>
+                    <input type="number" id="Mahou" name="Mahou" value="0" min="0" max="20">
+                </div>
+                <div class="cerveza">
+                    <img class="prod" src="Imagenes/1906.png">
+                    <p>1906</p>
+                    <h4>1,96€</h4>
+                    <label for="1906">Añadir</label>
+                    <input type="number" id="1906" name="1906"  value="0" min="0" max="20">
+                </div>
+            </div>
+            
+            <div class="cont">
+                <div class="cerveza">
+                    <img class="prod" src="Imagenes/judas.png">
+                    <p>Judas</p>
+                    <h4>6,66€</h4>
+                    <label for="judas">Añadir</label>
+                    <input type="number" id="judas" name="judas" value="0" min="0" max="20">
+                </div>
+                <div class="cerveza">
+                    <img class="prod" src="Imagenes/estrella-galicia.png">
+                    <p>Galicia</p>
+                    <h4>1,05€</h4>
+                    <label for="Heineken">Añadir</label>
+                    <input type="number" id="Heineken" name="Heineken" value="0" min="0" max="20">
+                </div>
+                <div class="cerveza">
+                    <img class="prod" src="Imagenes/leffe.png">
+                    <p>Leffe</p>
+                    <h4>0,69€</h4>
+                    <label for="leffe">Añadir</label>
+                    <input type="number" id="leffe" name="leffe" value="0" min="0" max="20">
+                </div>
+                <div class="cerveza">
+                    <img class="prod" src="Imagenes/champin.png">
+                    <p>Champin</p>
+                    <h4>2,99€</h4>
+                    <label for="Champin">Añadir</label>
+                    <input type="number" id="Champin" name="Champin" value="0" min="0" max="20">
+                </div>
+            </div>
+            <hr id="hr">
+            <div id="compra">
+                <h1>Datos De compra</h1><br>
+                <p>*Recuerda que si te inscribes puedes tener el recorrido del paquete, descuentos y muchas cosas mas <b>¡No te lo pierdas!</b></p> <br>
+            </div>
+            <div class="cont" id="padd">
+                
+                <div class="regis">
+                    <label for="nombre">Nombre: </label><br>
+                    <input class="input" id="nombre" type="text" name="nombre" required><br><br>
+
+                    <label for="DNI">DNI: </label><br>
+                    <input class="input" id="DNI" type="DNI" name="DNI" required><br><br>
+
+                    <label for="correo">Email:</label><br>
+                    <input class="input" id="correo" type="email" name="correo" required><br><br>
+
+                    <label for="tlfn">Teléfono:</label><br>
+                    <input class="input" id="tlfn" type="number" name="tlfn" required><br> <br>
+                    <label for="Tarjeta">Tarjeta de crédito o débito:</label><br>
+                    <input class="input" id="Tarjeta" type="number" name="Tarjeta" required><br> <br>
+
+                    <input type="submit" value="Submit" class="cta">
+                </div>
+                <div class="regis">
+                    <label for="apellidos">Apellido: </label><br>
+                    <input class="input" id="apellidos" type="text" name="apellidos" required><br><br>
+                    <label for="direccion">Dirección: </label><br>
+                    <input class="input" id="direccion" type="text" name="direccion" required><br><br>
+                    <p>Comentario: </p>
+                    <textarea class="input" id="tarea" name="message" rows="5" cols="30" placeholder="Comentenos algun menaje que nos pueda interesar" maxlength="300"></textarea>
+                </div>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kbTJejoYRLA"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+            </div>
+        </div>
+
+
+    </form>
+
+
+    <footer>
+        <div class="pie">
+            <h2>Nuestras tiendas </h2> <br>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1552.0201232665925!2d-6.337489593324871!3d38.923057587738946!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf1d9d8d665e4ae13!2sIES%20Albarregas!5e0!3m2!1ses!2ses!4v1671121699330!5m2!1ses!2ses"
+                width="250" height="130" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="pie">
+            <h1>Sobre nosotros</h1><br>
+            <p>Desde 1999 somos una empresa de venta de todo tipo de cervezas a todo el mundo. </p>
+        </div>
+        <div class="pie">
+            <h1>Redes Sociales</h1>
+            <br>
+            <div>
+            <img src="Imagenes/instagram-icon.png">
+            <a href="https://www.instagram.com/ies.albarregas/">Instragam</a>
+            </div>
+            <div>
+            <img src="Imagenes/Twitter-logo.png">
+            <a href="https://twitter.com/DAlbarregas">Twiter</a>
+            </div>
+            <div>
+            <img src="Imagenes/facebook-logo.png">
+            <a href="https://es-es.facebook.com/IESAlbarregas/">Facebook</a>
+            </div>
+            <div>
+            <img src="Imagenes/youtube-logo.png">
+            <a href="https://www.youtube.com/@iesalbarregas7431">Youtube</a>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+
+
+</html>
